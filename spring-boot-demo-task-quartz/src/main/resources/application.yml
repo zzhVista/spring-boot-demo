@@ -50,9 +50,9 @@ mapper:
   wrap-keyword: "`{0}`"
   safe-delete: true
   safe-update: true
-  identity: MYSQL
+  identity: POSTGRESQL
 pagehelper:
   auto-dialect: true
-  helper-dialect: mysql
+  helper-dialect: postgresql
   reasonable: true
   params: count=countSql
